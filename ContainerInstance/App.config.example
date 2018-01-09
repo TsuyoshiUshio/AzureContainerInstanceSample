@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="resourceGroup" value="YOUR_RESOURCE_GROUP"/>
+    <add key="containerGroup" value="CONTAINER_GROUP"/>
+    <add key="subsctiptionId" value="YOUR_SUBSCRIPTION_ID"/>
+    <add key="clientId" value="YOUR_APPLICATION_ID_SERVICE_PRINCIPAL"/>
+    <add key="clientSecret" value="YOUR_SECRET_OF_SERVICE_PRINCIPAL"/>
+    <add key="tenantId" value ="YOUR_TENANT_ID"/>
+  </appSettings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+    </startup>
+</configuration>
