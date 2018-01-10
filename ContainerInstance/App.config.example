@@ -7,6 +7,7 @@
     <add key="clientId" value="YOUR_APPLICATION_ID_SERVICE_PRINCIPAL"/>
     <add key="clientSecret" value="YOUR_SECRET_OF_SERVICE_PRINCIPAL"/>
     <add key="tenantId" value ="YOUR_TENANT_ID"/>
+    <add key="StorageConnectionString" value="YOUR_STORAGE_ACCOUNT_CONNECTION_STRING"/>
   </appSettings>
     <startup> 
         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
