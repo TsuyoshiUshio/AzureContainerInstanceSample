@@ -50,7 +50,7 @@ namespace ContainerInstance
             }
 
             Console.WriteLine("Done. Press button");
-            Console.ReadLine();
+            Console.ReadLine(); // Please click after finish the test.
 
             // 1000 concurrent request now for 1 min
            // await Task.Delay(TimeSpan.FromMinutes(1));
