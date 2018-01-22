@@ -87,11 +87,11 @@ namespace ContainerInstance
             {
                 if (flag == 0)
                 {
-                    list.Add(CreateClientContainer("efitnesstest/client", i, resources, $"{guid}-{i}"));
+                    list.Add(CreateClientContainer("DOCKERHUB_NAME/client", i, resources, $"{guid}-{i}"));
                 }
                 else
                 {
-                    list.Add(CreateSpamerContainer("efitnesstest/spamer", i, resources, $"{guid}-{i}"));
+                    list.Add(CreateSpamerContainer("DOCKERHUB_NAME/spamer", i, resources, $"{guid}-{i}"));
                 }
             }
 
