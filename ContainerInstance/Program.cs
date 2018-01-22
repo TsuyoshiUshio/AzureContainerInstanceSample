@@ -18,6 +18,7 @@ namespace ContainerInstance
         }
         static async Task MainAsync()
         {
+            // Getting client using fluent interface.
             var credentials = SdkContext.AzureCredentialsFactory.FromServicePrincipal(clientId, clientSecret, tenantId, AzureEnvironment.AzureGlobalCloud);
             var client = new ContainerInstanceManagementClient(credentials);
             client.SubscriptionId = subsctiptionId;
